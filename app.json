@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Swipe It",
+    "slug": "SwipeBooks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_first.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "jsEngine": "jsc",
+    "splash": {
+      "image": "./assets/logo_first.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_first.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.busrwa.SwipeBooks"
+    },
+    "web": {
+      "favicon": "./assets/logo_first.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60ef0e2f-1cad-4d6f-af89-57449362fe3f"
+      }
+    }
+  }
+}
